@@ -1,0 +1,11 @@
+Model Information:
+* title:	Polygon cat
+* source:	https://sketchfab.com/3d-models/polygon-cat-d0f41d35c4524640bb4a6e6699f25561
+* author:	tokkilap (https://sketchfab.com/tokkilap)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Polygon cat" (https://sketchfab.com/3d-models/polygon-cat-d0f41d35c4524640bb4a6e6699f25561) by tokkilap (https://sketchfab.com/tokkilap) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

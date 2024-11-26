@@ -1,0 +1,804 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.48f1 (8bf49c377ebf) revision 9172124'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16139 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.48f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+C:/Users/Signe/VR project 03
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+52042
+Successfully changed project path to: C:/Users/Signe/VR project 03
+C:/Users/Signe/VR project 03
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29036]  Target information:
+
+Player connection [29036]  * "[IP] 10.67.35.49 [Port] 0 [Flags] 2 [Guid] 2620611564 [EditorId] 2620611564 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OP5I6C4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29036] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29036] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 24.45 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.65 ms.
+Initialize engine version: 2022.3.48f1 (8bf49c377ebf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.48f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Signe/VR project 03/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Vendor:   NVIDIA
+    VRAM:     4012 MB
+    Driver:   32.0.15.5613
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.48f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.48f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.48f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.48f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.48f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.48f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018840 seconds.
+- Loaded All Assemblies, in  0.791 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 413 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.866 seconds
+Domain Reload Profiling: 1655ms
+	BeginReloadAssembly (366ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (239ms)
+		LoadAssemblies (363ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (867ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (793ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (540ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.347 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <31687ccd371e4dc6b0c23a1317cf9474>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <31687ccd371e4dc6b0c23a1317cf9474>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <31687ccd371e4dc6b0c23a1317cf9474>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <c65182fde1c949058fff90b2b18f4f75>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.878 seconds
+Domain Reload Profiling: 4214ms
+	BeginReloadAssembly (506ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (116ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (198ms)
+	LoadAllAssembliesAndSetupDomain (1468ms)
+		LoadAssemblies (1243ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (514ms)
+			TypeCache.Refresh (438ms)
+				TypeCache.ScanAssembly (405ms)
+			ScanForSourceGeneratedMonoScriptInfo (50ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1879ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1546ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (1084ms)
+			ProcessInitializeOnLoadMethodAttributes (212ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 18.29 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 6043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (397.7 KB). Loaded Objects now: 6491.
+Memory consumption went from 223.8 MB to 223.4 MB.
+Total: 9.201100 ms (FindLiveObjects: 0.826500 ms CreateObjectMapping: 0.907100 ms MarkObjects: 7.148200 ms  DeleteObjects: 0.318000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 612283.003649 seconds.
+  path: Assets/Import/plant 1/meshes/Object_4_4_0.asset
+  artifactKey: Guid(35cfd4da35d05e7419503a70ea76fd64) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Import/plant 1/meshes/Object_4_4_0.asset using Guid(35cfd4da35d05e7419503a70ea76fd64) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '33d64d7c852c30a8b737b1d618f27957') in 0.542870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Import/plant 1/meshes/Object_7_7_0.asset
+  artifactKey: Guid(61774a573b3171d4d9ae2eb7dab25fcd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Import/plant 1/meshes/Object_7_7_0.asset using Guid(61774a573b3171d4d9ae2eb7dab25fcd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4d8387f20ad59da54c7d6d0c3e6da3e0') in 0.033895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Import/plant 1/meshes/Object_1_1_0.asset
+  artifactKey: Guid(21f1d44fe8380734bad1721cd77b9751) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Import/plant 1/meshes/Object_1_1_0.asset using Guid(21f1d44fe8380734bad1721cd77b9751) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd2eca6942f1dca87caf0321153338bab') in 0.155392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Import/plant 1/meshes/Object_8_8_0.asset
+  artifactKey: Guid(1be2aecee50c1c54b9635785c17cfc5a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Import/plant 1/meshes/Object_8_8_0.asset using Guid(1be2aecee50c1c54b9635785c17cfc5a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2213cd9b9373bda8ca7a0039a06e3263') in 0.028953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '070af55f034319b66d7295083e994e8b') in 0.035917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Import/plant 1/meshes/Object_5_5_0.asset
+  artifactKey: Guid(a901403e4fe96774aabaebb977b98c84) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Import/plant 1/meshes/Object_5_5_0.asset using Guid(a901403e4fe96774aabaebb977b98c84) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '471cfccb42274ba249e61af787ba5696') in 0.122136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Import/plant 1/meshes/Object_6_6_0.asset
+  artifactKey: Guid(ad44ead72a748a647a291933fef84788) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Import/plant 1/meshes/Object_6_6_0.asset using Guid(ad44ead72a748a647a291933fef84788) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f6ba50d7f39e5a11e279053a415ce21f') in 0.024891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Import/plant 1/meshes/Object_2_2_0.asset
+  artifactKey: Guid(cd377e24ce993d9449bdb9aaa36976fc) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Import/plant 1/meshes/Object_2_2_0.asset using Guid(cd377e24ce993d9449bdb9aaa36976fc) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5c2e4acaa3e59ca9b01a5da0e2d41ba1') in 0.100768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.606321 seconds.
+  path: Assets/Import/plant 1/materials/st_red_3.mat
+  artifactKey: Guid(3c7c14df43c3f9a409af500837a9883c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/plant 1/materials/st_red_3.mat using Guid(3c7c14df43c3f9a409af500837a9883c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '858588790611dea205527c394f1fb417') in 0.477282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Import/plant 1/materials/black_st_2.mat
+  artifactKey: Guid(8ecd6a52f32476946b9399164c8aab8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/plant 1/materials/black_st_2.mat using Guid(8ecd6a52f32476946b9399164c8aab8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '83b83ef99b40e56992b6605f05baef7a') in 0.146212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 254.942125 seconds.
+  path: Assets/Import/spettula 03/textures
+  artifactKey: Guid(27c6c41b9ff5807458d810a55b4c3749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/textures using Guid(27c6c41b9ff5807458d810a55b4c3749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '59898899553855d33c9f7e1ae68826cb') in 0.038237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Import/spettula 03/license.txt
+  artifactKey: Guid(e6f0a378615bc324ebd552b1474d68d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/license.txt using Guid(e6f0a378615bc324ebd552b1474d68d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e79bf73a8fa8da1088740e41ff1328b9') in 0.012830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Import/spettula 03/textures/flowers_mat_specularGlossiness_3.png
+  artifactKey: Guid(d5244384fcdf43f41b1aa49528588e75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/textures/flowers_mat_specularGlossiness_3.png using Guid(d5244384fcdf43f41b1aa49528588e75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9970f23aab0359545b45a991d7505608') in 0.155907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 180.257135 seconds.
+  path: Assets/Import/spettula 03/materials/flowers_mat_1.mat
+  artifactKey: Guid(ebad2e5324d5efa43baf626620d53549) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/materials/flowers_mat_1.mat using Guid(ebad2e5324d5efa43baf626620d53549) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8ba27dcea3869ec76ebb27795a331386') in 1.243850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf02.007_rest_mat_0_25_0.asset
+  artifactKey: Guid(83a8255c1b67053428bed1f75bd7ef82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf02.007_rest_mat_0_25_0.asset using Guid(83a8255c1b67053428bed1f75bd7ef82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1bfcd2daad504ad7cb5aa92dc724000d') in 0.026262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Import/spettula 03/meshes/flower.010_flowers_mat_0_71_0.asset
+  artifactKey: Guid(c437836e3d19ed64c9f6944e321eb06a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/flower.010_flowers_mat_0_71_0.asset using Guid(c437836e3d19ed64c9f6944e321eb06a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c880f29d2416006a05fba4bf3d643df2') in 0.023312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf01.002_rest_mat_0_2_0.asset
+  artifactKey: Guid(f6e00f5f9eb5af343bc078834da752a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf01.002_rest_mat_0_2_0.asset using Guid(f6e00f5f9eb5af343bc078834da752a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e802e167c6687947ae264d61da8c14c6') in 0.022791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Import/spettula 03/meshes/pistilo.012_rest_mat_0_62_0.asset
+  artifactKey: Guid(1b28c754fbc92c94d876a897584a24c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/pistilo.012_rest_mat_0_62_0.asset using Guid(1b28c754fbc92c94d876a897584a24c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3a104baab918c674a85a63638c51ea9d') in 0.017614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf01.006_rest_mat_0_6_0.asset
+  artifactKey: Guid(f90152ed728e37b4b9e2b7ef6d373b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf01.006_rest_mat_0_6_0.asset using Guid(f90152ed728e37b4b9e2b7ef6d373b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'be0fb44bb5606cab72b98b467acf4708') in 0.023326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Import/spettula 03/meshes/pistilo.004_rest_mat_0_48_0.asset
+  artifactKey: Guid(a2d19cb5d71440047971b1acd9491f73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/pistilo.004_rest_mat_0_48_0.asset using Guid(a2d19cb5d71440047971b1acd9491f73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '35554c85907a3750254dcc24b78ee48d') in 0.025724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf02.008_rest_mat_0_26_0.asset
+  artifactKey: Guid(adbc8727f973bd14ba48a2049e553142) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf02.008_rest_mat_0_26_0.asset using Guid(adbc8727f973bd14ba48a2049e553142) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'afe4e3c81ee9fc775c3ebbe6db420954') in 0.025588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Import/spettula 03/meshes/tallo.007_rest_mat_0_90_0.asset
+  artifactKey: Guid(7139a4cbd28c97c48876a2f4d27cc721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/tallo.007_rest_mat_0_90_0.asset using Guid(7139a4cbd28c97c48876a2f4d27cc721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b0362a2302a1bf4c360a1b18486157ad') in 0.025288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Import/spettula 03/meshes/pistilo.007_rest_mat_0_64_0.asset
+  artifactKey: Guid(44ceaac796c96d14f8b10e58db8090e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/pistilo.007_rest_mat_0_64_0.asset using Guid(44ceaac796c96d14f8b10e58db8090e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '33c78bebdd6cb90f61a1ca2561d98dd0') in 0.025184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Import/spettula 03/meshes/estambre01.004_rest_mat_0_49_0.asset
+  artifactKey: Guid(28a9a2f0c98dde445bac1919ee736b42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/estambre01.004_rest_mat_0_49_0.asset using Guid(28a9a2f0c98dde445bac1919ee736b42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '56d678d04c22d3eb3c86c973c0fbf2a6') in 0.025957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Import/spettula 03/meshes/estambre02.006_rest_mat_0_58_0.asset
+  artifactKey: Guid(1ae75b827cb22e64496da2f87ce1177f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/estambre02.006_rest_mat_0_58_0.asset using Guid(1ae75b827cb22e64496da2f87ce1177f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '069c8fb16b339206d18ad20472d3f9b8') in 0.030572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Import/spettula 03/meshes/flower.002_flowers_mat_0_39_0.asset
+  artifactKey: Guid(bb42e308fb5b10541a69069c3918a4eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/flower.002_flowers_mat_0_39_0.asset using Guid(bb42e308fb5b10541a69069c3918a4eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f436020272d415971bcc154e6e602344') in 0.024847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Import/spettula 03/meshes/estambre02.010_rest_mat_0_74_0.asset
+  artifactKey: Guid(f861708ac2a16c04c96cdca348e87660) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/estambre02.010_rest_mat_0_74_0.asset using Guid(f861708ac2a16c04c96cdca348e87660) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8800f35faa2fa31eeb7f3cdaf09c8767') in 0.025927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Import/spettula 03/meshes/tallo_rest_mat_0_83_0.asset
+  artifactKey: Guid(71ac076202f2f5849bf8440fdcf5d588) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/tallo_rest_mat_0_83_0.asset using Guid(71ac076202f2f5849bf8440fdcf5d588) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7bf9344709ff91cb976c2eebd9a83d9e') in 0.035760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001151 seconds.
+  path: Assets/Import/spettula 03/meshes/estambre02.004_rest_mat_0_50_0.asset
+  artifactKey: Guid(40fdd92afa2a19f418bdf529406f05ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/estambre02.004_rest_mat_0_50_0.asset using Guid(40fdd92afa2a19f418bdf529406f05ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bcc7fd64db40de1693f7210fadff3a48') in 0.032000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf01.004_rest_mat_0_4_0.asset
+  artifactKey: Guid(bbd2d519b3f90c849a2aeb4265a9a88f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf01.004_rest_mat_0_4_0.asset using Guid(bbd2d519b3f90c849a2aeb4265a9a88f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b28204840ed93648497bd64ff659aa1f') in 0.031569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf02.011_rest_mat_0_29_0.asset
+  artifactKey: Guid(f13b489bcf3280445ad92d20d07d03a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf02.011_rest_mat_0_29_0.asset using Guid(f13b489bcf3280445ad92d20d07d03a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '403e46d4459d68d3a75cba12af3748e4') in 0.028429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf02.004_rest_mat_0_22_0.asset
+  artifactKey: Guid(037d29cb96159eb4187d0c0e2b287716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf02.004_rest_mat_0_22_0.asset using Guid(037d29cb96159eb4187d0c0e2b287716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2aed35ee91b205558b1d584a1489364c') in 0.028100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf02.010_rest_mat_0_28_0.asset
+  artifactKey: Guid(795d20bcbff556e4685182c0787daad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf02.010_rest_mat_0_28_0.asset using Guid(795d20bcbff556e4685182c0787daad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4ee1d07bd59710dd71134d7d39906544') in 0.029439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Import/spettula 03/meshes/estambre01.002_rest_mat_0_41_0.asset
+  artifactKey: Guid(131f81bfdce97f14f9c9033555563fd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/estambre01.002_rest_mat_0_41_0.asset using Guid(131f81bfdce97f14f9c9033555563fd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd4f37d9cf1d5fb704a1bb405b8a67d75') in 0.023700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf02.015_rest_mat_0_33_0.asset
+  artifactKey: Guid(703871ab66629ad45b19fd0ce67e92ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf02.015_rest_mat_0_33_0.asset using Guid(703871ab66629ad45b19fd0ce67e92ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4b56503e9a4e59446f16d39c8510bd0d') in 0.025188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Import/spettula 03/meshes/tallo.002_rest_mat_0_85_0.asset
+  artifactKey: Guid(b57b1efb253d84146a7a0cab2dcd74f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/tallo.002_rest_mat_0_85_0.asset using Guid(b57b1efb253d84146a7a0cab2dcd74f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c1dee2c632676d0d99f1ffd8a9ed079c') in 0.023366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf02.001_rest_mat_0_19_0.asset
+  artifactKey: Guid(335244b87b908a24ea7f648b015c75e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf02.001_rest_mat_0_19_0.asset using Guid(335244b87b908a24ea7f648b015c75e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ae18eb5b20618578c405fae45d5c5dc3') in 0.037599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf01.014_rest_mat_0_14_0.asset
+  artifactKey: Guid(a862dddb80684704bb4df6346c453adf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf01.014_rest_mat_0_14_0.asset using Guid(a862dddb80684704bb4df6346c453adf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '31be809d55df825fa4522c507d0731f2') in 0.035916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Import/spettula 03/meshes/estambre01.012_rest_mat_0_81_0.asset
+  artifactKey: Guid(0653ed6940e88a5478ab8e836e97ad5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/estambre01.012_rest_mat_0_81_0.asset using Guid(0653ed6940e88a5478ab8e836e97ad5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '26a2b3d6cdb956fa1f353acea2100d54') in 0.034394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf02.014_rest_mat_0_32_0.asset
+  artifactKey: Guid(77cd6fd55aa4225408c878f7e309ddd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf02.014_rest_mat_0_32_0.asset using Guid(77cd6fd55aa4225408c878f7e309ddd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '89fb717cac62769b51674dcf573bc5f4') in 0.036449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Import/spettula 03/meshes/flower.009_flowers_mat_0_67_0.asset
+  artifactKey: Guid(3720b65972b49b6478666c8c5138c419) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/flower.009_flowers_mat_0_67_0.asset using Guid(3720b65972b49b6478666c8c5138c419) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '637fa63f9ad35e6e0348038bda391707') in 0.033744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Import/spettula 03/meshes/tallo.006_rest_mat_0_89_0.asset
+  artifactKey: Guid(08108fccd872a1d44bf5018da4db6dbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/tallo.006_rest_mat_0_89_0.asset using Guid(08108fccd872a1d44bf5018da4db6dbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e8a0d95fa211f5e795a14dfd4e050a4b') in 0.025646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf02.006_rest_mat_0_24_0.asset
+  artifactKey: Guid(7b5fe8191a19bcc478da61a8027627fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf02.006_rest_mat_0_24_0.asset using Guid(7b5fe8191a19bcc478da61a8027627fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ebf899ae04e48ed6449bec8d05166bd6') in 0.039448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Import/spettula 03/meshes/estambre02.011_rest_mat_0_78_0.asset
+  artifactKey: Guid(2302682166802ef479af48dcdd7266c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/estambre02.011_rest_mat_0_78_0.asset using Guid(2302682166802ef479af48dcdd7266c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '49a4badd3b4ecff97a252a57eb2288c9') in 0.038083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Import/spettula 03/meshes/pistilo.005_rest_mat_0_52_0.asset
+  artifactKey: Guid(2d4d002447b421a4b9c7b3e197501906) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/pistilo.005_rest_mat_0_52_0.asset using Guid(2d4d002447b421a4b9c7b3e197501906) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '76566ec6cec03fe2cba6a75c075d0ccf') in 0.039438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf01.016_rest_mat_0_16_0.asset
+  artifactKey: Guid(718341ee19f049644aa28b29717b3306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf01.016_rest_mat_0_16_0.asset using Guid(718341ee19f049644aa28b29717b3306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '49a6ea147913c51d219bf408bd72733a') in 0.027722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf02_rest_mat_0_18_0.asset
+  artifactKey: Guid(f2f2fba05cf88b94eab26325ce1ac813) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf02_rest_mat_0_18_0.asset using Guid(f2f2fba05cf88b94eab26325ce1ac813) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a59ed4c57a849f94e7a1a81c6619cf26') in 0.026066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Import/spettula 03/meshes/estambre02.003_rest_mat_0_46_0.asset
+  artifactKey: Guid(877a9ff7786f5774f86c5f7523ded265) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/estambre02.003_rest_mat_0_46_0.asset using Guid(877a9ff7786f5774f86c5f7523ded265) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1ae671b4f5199d280122261ae27a14ab') in 0.029868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Import/spettula 03/meshes/estambre01.010_rest_mat_0_73_0.asset
+  artifactKey: Guid(cb7a953659c1e6a428b4910353920456) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/estambre01.010_rest_mat_0_73_0.asset using Guid(cb7a953659c1e6a428b4910353920456) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e6b7cf0d4b9d843c6fd0e1bc9e79d3b6') in 0.030859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Import/spettula 03/meshes/estambre01.005_rest_mat_0_53_0.asset
+  artifactKey: Guid(142254630f8a36943ab3af251784f137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/estambre01.005_rest_mat_0_53_0.asset using Guid(142254630f8a36943ab3af251784f137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aef9306f89b36549360833c6e1519cb1') in 0.026501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Import/spettula 03/meshes/flower.007_flowers_mat_0_59_0.asset
+  artifactKey: Guid(7d89495ccac767340895076105f391be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/flower.007_flowers_mat_0_59_0.asset using Guid(7d89495ccac767340895076105f391be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '01861814142cec787de6490c0b272474') in 0.033924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Import/spettula 03/meshes/flower.003_flowers_mat_0_43_0.asset
+  artifactKey: Guid(889802412d7824e4b99c1a9b3956009f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/flower.003_flowers_mat_0_43_0.asset using Guid(889802412d7824e4b99c1a9b3956009f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bc8f40c321a47a38ab54105491cf9185') in 0.031723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf01.013_rest_mat_0_13_0.asset
+  artifactKey: Guid(b35873870d4af9c48b7e1b1bce6b2e45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf01.013_rest_mat_0_13_0.asset using Guid(b35873870d4af9c48b7e1b1bce6b2e45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '087c46f3c636bb78eab8b797797eab7f') in 0.019475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Import/spettula 03/meshes/tallo.010_rest_mat_0_93_0.asset
+  artifactKey: Guid(e29e8b6909b15d14db2f450b49eb6d82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/tallo.010_rest_mat_0_93_0.asset using Guid(e29e8b6909b15d14db2f450b49eb6d82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '651d7fc830430ba45d475fc86a42c022') in 0.025465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Import/spettula 03/meshes/tallo.008_rest_mat_0_91_0.asset
+  artifactKey: Guid(395196fd93d6c6245a37437fc5b0dc89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/tallo.008_rest_mat_0_91_0.asset using Guid(395196fd93d6c6245a37437fc5b0dc89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b50d2c0781c9ec5f1193401aa5b38ce5') in 0.029190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf01.011_rest_mat_0_11_0.asset
+  artifactKey: Guid(be0c9d81dc013b04788cbb2539382b51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf01.011_rest_mat_0_11_0.asset using Guid(be0c9d81dc013b04788cbb2539382b51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7db6a926b4dfbc3ab5478f4e67f71fc0') in 0.020695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf02.013_rest_mat_0_31_0.asset
+  artifactKey: Guid(3eab3b29711c87f44b7489447204d175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf02.013_rest_mat_0_31_0.asset using Guid(3eab3b29711c87f44b7489447204d175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '512680962ebe3389161baf62ec698585') in 0.022159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf01.015_rest_mat_0_15_0.asset
+  artifactKey: Guid(f5cfda17c86decb498e392261a6e6f9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf01.015_rest_mat_0_15_0.asset using Guid(f5cfda17c86decb498e392261a6e6f9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'af71484a8b3cc4dab82e4f8d7bcbdde4') in 0.030661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf01.009_rest_mat_0_9_0.asset
+  artifactKey: Guid(4907fb77ac51b8b4c88e3fde79d82cc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf01.009_rest_mat_0_9_0.asset using Guid(4907fb77ac51b8b4c88e3fde79d82cc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1ae24e789a686b8287b2221e7a2b92a4') in 0.031985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf01.001_rest_mat_0_1_0.asset
+  artifactKey: Guid(907e773aef84af140ac0481d3014aae0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/leaf01.001_rest_mat_0_1_0.asset using Guid(907e773aef84af140ac0481d3014aae0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ecedcfff15abfd90d1d2204f94d67a13') in 0.030485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Import/spettula 03/meshes/pistilo.011_rest_mat_0_80_0.asset
+  artifactKey: Guid(c46b59e90aeddc8489fd5000fbf0e04f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/pistilo.011_rest_mat_0_80_0.asset using Guid(c46b59e90aeddc8489fd5000fbf0e04f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5aa98429c740d719479fc52702cffe1f') in 0.038313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Import/spettula 03/meshes/estambre01.003_rest_mat_0_45_0.asset
+  artifactKey: Guid(a113e43dd4deec3408d7194e03caca45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/estambre01.003_rest_mat_0_45_0.asset using Guid(a113e43dd4deec3408d7194e03caca45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3e4b8a196d6cf85b720a8891d607a422') in 0.032633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Import/spettula 03/meshes/tallo.011_rest_mat_0_94_0.asset
+  artifactKey: Guid(4c556f3f7ce96d643b17720795e17739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/tallo.011_rest_mat_0_94_0.asset using Guid(4c556f3f7ce96d643b17720795e17739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '135b4abe5a56d10022572728e12a9d8d') in 0.033085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Import/spettula 03/meshes/tallo.003_rest_mat_0_86_0.asset
+  artifactKey: Guid(eb68559778bda51489175daaec4f7e5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/spettula 03/meshes/tallo.003_rest_mat_0_86_0.asset using Guid(eb68559778bda51489175daaec4f7e5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4933faf195687e888ac5b8297f46973e') in 0.025962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 59.697846 seconds.
+  path: Assets/Import/spettula 03/meshes/leaf01_rest_mat_0_0_0.asset
+  artifactKey: Guid(5bb846270c46a264e86cbd328d8eb0b8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Import/spettula 03/meshes/leaf01_rest_mat_0_0_0.asset using Guid(5bb846270c46a264e86cbd328d8eb0b8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3dac2f0965bcdf737a357d79c8d1f12e') in 1.062200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,11 @@
+Model Information:
+* title:	彼女が持ってきた金属の猫　The metal cat
+* source:	https://sketchfab.com/3d-models/the-metal-cat-1f52c557b3034cc080ab640c99e49d50
+* author:	ShadowAssetsStore (https://sketchfab.com/ShadowAssetStore)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "彼女が持ってきた金属の猫　The metal cat" (https://sketchfab.com/3d-models/the-metal-cat-1f52c557b3034cc080ab640c99e49d50) by ShadowAssetsStore (https://sketchfab.com/ShadowAssetStore) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
