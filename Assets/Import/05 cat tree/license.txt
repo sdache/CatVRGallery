@@ -1,0 +1,11 @@
+Model Information:
+* title:	CC0 - Cat Tree
+* source:	https://sketchfab.com/3d-models/cc0-cat-tree-06adf6ad5dd14bea8befd8593366727e
+* author:	plaggy (https://sketchfab.com/plaggy)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "CC0 - Cat Tree" (https://sketchfab.com/3d-models/cc0-cat-tree-06adf6ad5dd14bea8befd8593366727e) by plaggy (https://sketchfab.com/plaggy) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
